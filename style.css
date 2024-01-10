@@ -4,7 +4,7 @@
     padding: 0px;
 }
 
-.body {
+body {
     font-family: 'Space Mono', sans-serif;
     background-color: #C5E4E7;
     background-repeat: no-repeat;
@@ -30,9 +30,9 @@
 .main-board {
     display: flex;
     flex-direction: column;
-    border-radius: 25px 25px 0px 0px;
     flex-shrink: 0;
-    background: #FFF;
+    border-radius: 25px 25px 25px 25px;
+    background-color: #FFF;
     gap: 32px;
     justify-content: center;
     align-items: center;
@@ -45,7 +45,7 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-
+    padding-top: 32px;
 }
 
 .number {
@@ -98,12 +98,28 @@
     flex-direction: column;
 }
 
+.tipX {
+    padding-top: 32px;
+    padding-bottom: 10px;
+}
+
 .tipping-board {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    align-self: center;
+    gap: 16px;
+}
+
+.first-3 {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.second-3 {
+    display: flex;
+    flex-direction: column;
     gap: 16px;
 }
 
@@ -138,7 +154,7 @@
 .percentage:hover {
     color: #00474B;
     text-align: center;
-    font-family: Space Mono;
+
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
@@ -166,13 +182,12 @@
 
 .custom-txt {
     color: #547878;
-    text-align: right;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     width: 111.487px;
-    font-family: Space Mono;
+
 }
 
 
@@ -208,8 +223,6 @@
 
 
 .result-board {
-    width: 327px;
-    height: 257px;
     flex-shrink: 0;
     border-radius: 15px;
     background: #00474B;
@@ -217,7 +230,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-radius: 15px;
+    border-radius: 15px;
+    padding: 39px 24px 24px;
 }
+
 
 .tip-amount {
     color: #FFF;
@@ -235,5 +252,330 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+
+}
+
+.tip-number {
+    color: #26C2AE;
+    text-align: right;
+    font-family: Space Mono;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.667px;
+}
+
+.result-1 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    gap: 87px;
+}
+
+
+
+
+.total-amount {
+    color: #FFF;
+    font-family: Space Mono;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.total-number {
+    color: #26C2AE;
+    text-align: right;
+    font-family: Space Mono;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.667px;
+}
+
+.result-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    gap: 117px;
+}
+
+
+
+.reset-btn {
+    border-radius: 5px;
+    width: 281px;
+    height: 48px;
+    flex-shrink: 0;
+    background: #26C2AE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.reset-txt {
+    color: #00474B;
+    text-align: center;
+    font-family: Space Mono;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 216px;
+}
+
+.reset-btn:hover {
+    border-radius: 5px;
+    background: #9FE8DF;
+    cursor: pointer;
+}
+.Space{
+    padding-top: 33px;
+}
+
+@media(min-width:1440px) {
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 48px;
+        overflow: hidden;
+    }
+
+    .Logo {
+        width: 86.664px;
+        height: 53.136px;
+        margin-top: 100px;
+    }
+
+    .main-board {
+        display: flex;
+        flex-direction: row;
+        border-radius: 25px;
+        flex-shrink: 0;
+        background: #FFF;
+        gap: 40px;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+    .half-board {
+        padding-bottom: 48px;
+        gap: 40px;
+    }
+
+    .people-counter {
+        padding-bottom: 16px;
+        padding-right: 48px;
+    }
+
+    .main-board {
+        padding-right: 32px;
+        padding-left: 48px;
+
+    }
+
+
+
+
+
+
+    .bill-btn {
+        margin-top: 7px;
+        width: 379px;
+        flex-shrink: 0;
+        border-radius: 5px;
+        background: #F3F9FA;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+
+
+
+
+
+
+    .tipping {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .tipX {
+        padding-top: 32px;
+        padding-bottom: 10px;
+    }
+
+    .tipping-board {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 16px;
+    }
+
+    .first-3 {
+        display: flex;
+        flex-direction: row;
+        gap: 16px;
+    }
+
+    .second-3 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .tipping-button {
+        width: 117px;
+    }
+
+
+
+
+    .custom {
+
+        width: 117px;
+
+        flex-shrink: 0;
+    }
+
+    .custom-txt {
+        color: #547878;
+
+        width: 117.487px;
+        font-family: Space Mono;
+    }
+
+
+
+    .people-btn {
+        width: 379px;
+
+    }
+
+
+
+
+
+
+
+    .result-board {
+        flex-shrink: 0;
+        border-radius: 15px;
+        background: #00474B;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 15px;
+        border-radius: 15px;
+        padding: 39px 24px 24px;
+    }
+
+
+    .tip-amount {
+        color: #FFF;
+        font-family: Space Mono;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .person {
+        color: #7F9D9F;
+        font-family: Space Mono;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+
+    }
+
+    .tip-number {
+        color: #26C2AE;
+text-align: right;
+font-family: Space Mono;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -1px;
+    }
+
+    .result-1 {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+        gap: 87px;
+    }
+
+
+
+
+    .total-amount {
+        color: #FFF;
+        font-family: Space Mono;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .total-number {
+        color: #26C2AE;
+        text-align: right;
+        font-family: Space Mono;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -1px;
+    }
+
+    .result-2 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        padding-top: 20px;
+    }
+
+
+
+    .reset-btn {
+        width: 333px;
+        padding-left: 10px;
+        padding-right: 10px;
+        flex-shrink: 0;
+        background: #26C2AE;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .Space{
+        padding: 75px;
+    }
+
+    
+
+
+
+
 
 }
