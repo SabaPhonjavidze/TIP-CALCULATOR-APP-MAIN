@@ -45,7 +45,7 @@ body {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    padding-top: 32px;
+    margin-top: 32px;
 }
 
 .number {
@@ -99,8 +99,8 @@ body {
 }
 
 .tipX {
-    padding-top: 32px;
-    padding-bottom: 10px;
+    margin-top: 32px;
+    margin-bottom: 10px;
 }
 
 .tipping-board {
@@ -230,15 +230,12 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-radius: 15px;
-    border-radius: 15px;
     padding: 39px 24px 24px;
 }
 
 
 .tip-amount {
     color: #FFF;
-    font-family: Space Mono;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -247,7 +244,7 @@ body {
 
 .person {
     color: #7F9D9F;
-    font-family: Space Mono;
+   
     font-size: 13px;
     font-style: normal;
     font-weight: 700;
@@ -258,7 +255,6 @@ body {
 .tip-number {
     color: #26C2AE;
     text-align: right;
-    font-family: Space Mono;
     font-size: 32px;
     font-style: normal;
     font-weight: 700;
@@ -279,7 +275,6 @@ body {
 
 .total-amount {
     color: #FFF;
-    font-family: Space Mono;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -289,7 +284,6 @@ body {
 .total-number {
     color: #26C2AE;
     text-align: right;
-    font-family: Space Mono;
     font-size: 32px;
     font-style: normal;
     font-weight: 700;
@@ -322,7 +316,6 @@ body {
 .reset-txt {
     color: #00474B;
     text-align: center;
-    font-family: Space Mono;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
@@ -335,9 +328,7 @@ body {
     background: #9FE8DF;
     cursor: pointer;
 }
-.Space{
-    padding-top: 33px;
-}
+
 
 @media(min-width:1440px) {
     .container {
@@ -467,47 +458,9 @@ body {
 
 
 
-
-
-
-
-    .result-board {
-        flex-shrink: 0;
-        border-radius: 15px;
-        background: #00474B;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        border-radius: 15px;
-        border-radius: 15px;
-        padding: 39px 24px 24px;
-    }
-
-
-    .tip-amount {
-        color: #FFF;
-        font-family: Space Mono;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-    }
-
-    .person {
-        color: #7F9D9F;
-        font-family: Space Mono;
-        font-size: 13px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-
-    }
-
     .tip-number {
         color: #26C2AE;
 text-align: right;
-font-family: Space Mono;
 font-size: 48px;
 font-style: normal;
 font-weight: 700;
@@ -521,18 +474,7 @@ letter-spacing: -1px;
         flex-direction: row;
         align-items: center;
         gap: 87px;
-    }
-
-
-
-
-    .total-amount {
-        color: #FFF;
-        font-family: Space Mono;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
+        margin-bottom: 30px;
     }
 
     .total-number {
@@ -551,7 +493,7 @@ letter-spacing: -1px;
         justify-content: space-between;
         align-items: center;
         flex-direction: row;
-        padding-top: 20px;
+        margin-bottom: 150px;
     }
 
 
@@ -561,16 +503,9 @@ letter-spacing: -1px;
         padding-left: 10px;
         padding-right: 10px;
         flex-shrink: 0;
-        background: #26C2AE;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        
     }
 
-    .Space{
-        padding: 75px;
-    }
+    
 
     
 
