@@ -1,0 +1,239 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.body {
+    font-family: 'Space Mono', sans-serif;
+    background-color: #C5E4E7;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 50px;
+    gap: 41px;
+    overflow: hidden;
+}
+
+.Logo {
+    width: 86.664px;
+    height: 53.136px;
+}
+
+.main-board {
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px 25px 0px 0px;
+    flex-shrink: 0;
+    background: #FFF;
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragraphs {
+    color: #5E7A7D;
+    font-family: Space Mono;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.number {
+    color: #00474B;
+    text-align: right;
+    font-family: Space Mono;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+.billing {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.bill-btn {
+    margin-top: 7px;
+    width: 311px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #F3F9FA;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+
+}
+
+.bill-btn:hover {
+    border-radius: 5px;
+    border: 2px solid #26C2AE;
+    cursor: pointer;
+}
+
+.dollar-icon {
+    width: 9.84px;
+    height: 15.456px;
+    flex-shrink: 0;
+}
+
+
+.tipping {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.tipping-board {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-self: center;
+    gap: 16px;
+}
+
+.tipping-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 146.631px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #00474B;
+}
+
+.tipping-button:hover {
+    border-radius: 5px;
+    background: #26C2AE;
+    cursor: pointer;
+}
+
+.percentage {
+    color: #FFF;
+    text-align: center;
+    width: 112.793px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-family: Space Mono;
+}
+
+.percentage:hover {
+    color: #00474B;
+    text-align: center;
+    font-family: Space Mono;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.custom:hover {
+    border-radius: 5px;
+    border: 2px solid #26C2AE;
+    background: #F3F9FA;
+    cursor: pointer;
+}
+
+.custom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background: #F3F9FA;
+    width: 147.814px;
+    height: 48px;
+    flex-shrink: 0;
+}
+
+.custom-txt {
+    color: #547878;
+    text-align: right;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 111.487px;
+    font-family: Space Mono;
+}
+
+
+
+
+.people-counter {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.people-btn {
+    margin-top: 7px;
+    width: 311px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #F3F9FA;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+
+}
+
+.people-btn:hover {
+    border-radius: 5px;
+    border: 2px solid #26C2AE;
+    cursor: pointer;
+    cursor: pointer;
+}
+
+
+
+.result-board {
+    width: 327px;
+    height: 257px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #00474B;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tip-amount {
+    color: #FFF;
+    font-family: Space Mono;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.person {
+    color: #7F9D9F;
+    font-family: Space Mono;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}

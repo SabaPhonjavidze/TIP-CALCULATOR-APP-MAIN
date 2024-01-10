@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+    </style>
+    <link
+      rel="shortcut icon"
+      href="assets/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tip-Calculator-App-Main</title>
+  </head>
+  <body>
+    <div class="container">
+      <img class="Logo" src="assets/logo.svg" alt="" />
+
+      <div class="main-board">
+        <div class="billing">
+          <p class="paragraphs">Bill</p>
+          <div class="bill-btn">
+            <img class="dollar-icon" src="assets/icon-dollar.svg" alt="" />
+            <p class="number paragraphs">0</p>
+          </div>
+        </div>
+
+        <div class="tipping">
+          <p class="paragraphs">Select Tip %</p>
+          <div class="tipping-board">
+            <div class="tipping-button"><p class="percentage">5%</p></div>
+            <div class="tipping-button"><p class="percentage">10%</p></div>
+            <div class="tipping-button"><p class="percentage">15%</p></div>
+            <div class="tipping-button"><p class="percentage">25%</p></div>
+            <div class="tipping-button"><p class="percentage">50%</p></div>
+            <div class="custom">
+              <p class="custom-txt percentage">Custom</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="people-counter">
+          <p class="paragraphs">Number of People</p>
+          <div class="people-btn">
+            <img src="assets/icon-person.svg" alt="" />
+            <p class="number paragraphs">5</p>
+          </div>
+        </div>
+        <div class="result-board">
+            <p class="tip-amount">Tip Amount </p>
+            <small class="person">/ person</small>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
