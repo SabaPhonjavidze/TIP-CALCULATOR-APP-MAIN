@@ -19,63 +19,76 @@
       <img class="Logo" src="assets/logo.svg" alt="" />
 
       <div class="main-board">
-        <div class="half-board">
-        <div class="billing">
-          <p class="paragraphs">Bill</p>
-          <div class="bill-btn">
-            <img class="dollar-icon" src="assets/icon-dollar.svg" alt="" />
-            <p class="number ">0</p>
-          </div>
-        </div>
 
-        <div class="tipping">
-          <p class="paragraphs tipX">Select Tip %</p>
-          <div class="tipping-board">
-            <div class="first-3">
-            <div class="tipping-button"><p class="percentage">5%</p></div>
-            <div class="tipping-button"><p class="percentage">10%</p></div>
-            <div class="tipping-button"><p class="percentage">15%</p></div>
+
+        <div class="half-board">
+
+
+          <div class="billing">
+
+            <p class="paragraphs">Bill</p>
+            <div class="relative">
+              <input id="bill_input" placeholder="0" class="bill-btn" type="number" />
+              <img class="dollar-icon" src="assets/icon-dollar.svg" alt="" />
+            </div>
+
           </div>
-          <div class="second-3">
-            <div class="tipping-button"><p class="percentage">25%</p></div>
-            <div class="tipping-button"><p class="percentage">50%</p></div>
-            <div class="custom">
-              <p class="custom-txt percentage">Custom</p>
+
+
+          <div class="tipping">
+
+            <p class="paragraphs tipX">Select Tip %</p>
+
+            <div class="tipping-board">
+
+              <div class="first-3">
+                <button class="tipping-button">5%</button>
+                <button class="tipping-button">10%</button>
+                <button class="tipping-button">15%</button>
+              </div>
+
+
+              <div class="second-3">
+                <button class="tipping-button">25%</button>
+                <button class="tipping-button">50%</button>
+
+                <div class="relative">
+                  <input id="custom-input" placeholder="Custom" class="custom" type="number" />
+                </div>
+              </div>
+    
+            </div>
+
+          </div>
+
+          <div class="people-counter">
+            <p class="paragraphs">Number of People</p>
+            <p id="warning" class="Warning">Can’t be zero</p>
+            <div class="relative">
+              <input id="number_of_people" placeholder="0" class="people-btn" type="number" />
+              <img class="people-icon" src="assets/icon-person.svg" alt="" />
             </div>
           </div>
-          </div>
         </div>
 
-        <div class="people-counter">
-          <p class="paragraphs">Number of People</p>
-          <div class="people-btn">
-            <img src="assets/icon-person.svg" alt="" />
-            <p class="number ">0</p>
-          </div>
-        </div>
-      </div>
-
-
-
-      
         <div class="result-board">
           <div class="result-1">
             <div>
               <p class="tip-amount">Tip Amount</p>
               <small class="person">/ person</small>
             </div>
-            
-            <div class="tip-number">$00.00</div>
+
+            <div id="tip_amount" class="tip-number">$00.00</div>
           </div>
           <div class="result-2">
-          <div>
+            <div>
               <p class="total-amount">Total</p>
-            <small class="person">/ person</small>
+              <small class="person">/ person</small>
+            </div>
+            <div id="eachPersonTotal" class="total-number">$00.00</div>
           </div>
-            <div class="total-number">$00.00</div>
-          </div>
-        
-          <div class="reset-btn"><p class="reset-txt">RESET</p></div>
+
+          <div id="reset_btn" class="reset-btn">RESET</div>
         </div>
       </div>
     </div>
